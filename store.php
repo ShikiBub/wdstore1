@@ -1,7 +1,7 @@
 <?php
 
 define('BOT_TOKEN', '602890781:AAFJKzGClhn0-h7rpqJkCnX2ctk5pCusC4c');
-define('WEBHOOK_URL', 'https://my-site.example.com/secret-path-for-webhooks/');
+define('WEBHOOK_URL', 'https://wdstore.herokuapp.com/');
 
 function apiRequestWebhook($method, $parameters) {
   if (!is_string($method)) {
